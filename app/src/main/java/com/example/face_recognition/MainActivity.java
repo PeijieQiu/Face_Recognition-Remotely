@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements OnFinishListener 
     private ImageView imageView;
     private final int CAMERA_REQUEST = 8888;
     private Bitmap photo;
-    private static final String baseUrl = "http://182.61.18.65/face_recognition/";
+    private static final String baseUrl = "your server address";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
